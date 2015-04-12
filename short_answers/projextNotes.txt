@@ -1,0 +1,43 @@
+http://en.wikipedia.org/wiki/Gradient_descent
+
+http://www.statsoft.com/textbook/statistics-glossary/
+
+http://blog.minitab.com/blog/adventures-in-statistics/how-high-should-r-squared-be-in-regression-analysis
+http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit
+
+http://www.graphpad.com/guides/prism/6/curve-fitting/index.htm?reg_analysischeck_linearreg.htm
+
+http://en.wikipedia.org/wiki/Ordinary_least_squares
+http://en.wikipedia.org/w/index.php?title=Linear_least_squares_(mathematics)
+http://en.wikipedia.org/wiki/Polynomial_regression
+
+http://aimotion.blogspot.com/2011/10/machine-learning-with-python-linear.html
+
+http://unlikenoise.com/multivariate-linear-regression-gradient-descent/
+
+
+
+### Gradient_descent algo that minimizes a function over given set of parameters
+	- iterative minimization. 
+
+### goal of linear regression is to fit line to set of data points
+	- best way to achieve this is to define an error function or cost function = measures how good a given line is.. error term to line on fit.
+	- iterate over data (x,y) and sum the square distances btwn points (y, exp_y) exp_y is linear interpolation of y based on x.
+	- distance is squared.. workable in programming..
+	- lines that fit better based on our data minimize the error function
+
+### Gradient_descent attempts to find the lowest point of (b, m) error terms or cost function
+	- error term should degrade over each iteration.
+	- convergence when ROC on error term gets minimized
+
+	
+### R^2 = 1- ratio of residual variability. 
+	- variability of residual values vs. regression line
+	- R-square of 0.6 the variability around regression line = 1-.60 or 0.40 residual variability or not explained variability...
+	- how well the model fits the data.
+	** model objective for r^2
+	- R^2 as describing the relationship between predictors and response variable 
+	- OR R^2 as predicting the response variable
+	
+### R is the correlation coefficient, if B coefficient is positive then relationship to dependant variable is positive.
+	 	
